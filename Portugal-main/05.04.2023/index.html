@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+           
+            <legend>Identificação</legend>
+
+        <label for="cNome">Nome</label>
+        <input type="text" id="cNome" required>
+        <br> <br>
+        
+    
+         <p>Onde vc mora?</p>
+        <input type="radio">
+        <label for="">Cidade</label> <br>
+        <input type="radio">
+        <label for="">Interior</label> <br> <br>
+    </fieldset>
+    
+    <fieldset>
+        <p>Qual meio de transporte voce usa?</p>
+        <input type="checkbox"> 
+        <label for="">Bicicleta</label> <br>
+        <input type="checkbox">
+        <label for="">Metro</label> <br>
+        <input type="checkbox">
+        <label for="">Ônibus</label> <br>
+    </fieldset>
+<fieldset>
+        <p>Selecione o seu time</p>
+        <select name="" id="">
+            <option value="CORINTHIANS">CORINTHIANS</option>
+            <option value="são paulo">são paulo</option>
+            <option value="santos">santos</option>
+            <option value="palmeiras">palmeiras</option>
+        </select><br><br>
+    </fieldset>
+    <fieldset>
+        <p>Escola sua cidade</p>
+        <label for="">Cidade</label>
+        <input autocomplete="on"list="Cidade" placeholder="Sua Cidade">
+        <datalint id="Cidade">
+            <option value="São paulo">São paulo</option>
+            <option value="Bahia">Bahia</option>
+            <option value="Minas gerais">Minas gerais</option>
+            <option value="Rio de janeiro">Rio de janeiro</option>
+            </datalist><br><br>
+        
+            0 <input type="range">100
+            <br><br>
+        </fieldset>
+            <p>Sugestões, Elogios e Críticas:</p>
+        
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+       
+       
+     
+     
+     
+     
+     
+        <input type="submit" value="Encaminhar">
+        <br><br>
+    </form>    
+</body>
+</html>
